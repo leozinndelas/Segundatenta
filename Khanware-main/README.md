@@ -1,5 +1,4 @@
-# :
-🌹  Khanverix
+# : 🌹  Khanverix
 ### The most advanced Khan Academy cheat.
 
 🙂 Stable:

@@ -1,5 +1,4 @@
 const ver = "V3.1.1";
-let isDev = false;
 
 const repoPath = `https://raw.githubusercontent.com/leozinndelas/Segundatenta/refs/heads/${isDev ? "dev/" : "main/"}`;
 

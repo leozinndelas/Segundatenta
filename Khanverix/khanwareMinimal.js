@@ -32,9 +32,9 @@ function setupMain(){
     /* QuestionSpoof */
     (function () {
         const phrases = [ 
-            "🔥 Get good, get [Khanware](https://github.com/Niximkk/khanware/)!",
-            "🤍 Made by [@im.nix](https://e-z.bio/sounix).",
-            "☄️ By [Niximkk/khanware](https://github.com/Niximkk/khanware/).",
+            "🔥 SOU O MELHOR [Khanverix](https://github.com/Niximkk/khanware/)!",
+            "🤍 Made by [@leozin.wl](https://e-z.bio/sounix).",
+            "☄️ By [Marcelod64]().",
             "🌟 Star the project on [GitHub](https://github.com/Niximkk/khanware/)!",
             "🪶 Lite mode @ KhanwareMinimal.js",
         ];
@@ -59,7 +59,7 @@ function setupMain(){
                         itemData.question.content = phrases[Math.floor(Math.random() * phrases.length)] + `[[☃ radio 1]]`;
                         itemData.question.widgets = { "radio 1": { type: "radio", options: { choices: [ { content: "Resposta correta.", correct: true }, { content: "Resposta incorreta.", correct: false } ] } } };
                         responseObj.data.assessmentItem.item.itemData = JSON.stringify(itemData);
-                        sendToast("🔓 Questão exploitada.", 1000);
+                        sendToast("🔓 SEXO22.", 1000);
                         return new Response(JSON.stringify(responseObj), { status: originalResponse.status, statusText: originalResponse.statusText, headers: originalResponse.headers });
                     }
                 }
@@ -86,7 +86,7 @@ function setupMain(){
                         body = JSON.stringify(bodyObj);
                         if (input instanceof Request) { input = new Request(input, { body: body }); } 
                         else init.body = body; 
-                        sendToast("🔓 Vídeo exploitado.", 1000)
+                        sendToast("🔓 SEXO22.", 1000)
                     }
                 } catch (e) { debug(`🚨 Error @ videoSpoof.js\n${e}`); }
             }
